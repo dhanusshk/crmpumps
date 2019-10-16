@@ -2,3 +2,26 @@
   font-family: sans-serif;
   text-align: center;
 }
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: rgb(255, 255, 250);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 250, 1) 0%,
+    rgba(255, 249, 179, 1) 100%
+  );
+}
+.Logo {
+  background-image: url(./logo.png);
+  height: 300px;
+  width: 100px;
+}
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
